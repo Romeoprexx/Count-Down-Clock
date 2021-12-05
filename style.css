@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#clock {
+    font-size: 3em;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+#clock div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    background: darkblue;
+    margin: 15px;
+    margin-top: 2%;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    text-align: center;
+}
+#clock span {
+    font-family: 'Orbitron', sans-serif;
+    font-size: .35em;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+@media only screen and (max-width:600px){
+    #clock {
+        font-size: 2.5em;
+        font-weight: 100;
+        color: rgb(255, 255, 255);
+    }
+    #clock div {
+        display: inline-block;
+        min-width: 90px;
+        padding: 15px;
+        background: darkblue;
+        margin: 15px;
+        margin-top: 2%;
+        border: 2px solid darkblue;
+        border-radius: 20px;
+        text-align: center;
+    }
+    #clock span {
+        font-family: 'Orbitron', sans-serif;
+        font-size: .35em;
+        text-align: center;
+        display: block;
+        font-weight: 400;
+        margin-top: 13px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    
+}
+@media only screen and (min-width:601px) and (max-width:1250px){
+    #clock {
+        font-size: 3em;
+        font-weight: 100;
+        color: rgb(255, 255, 255);
+    }
+    #clock div {
+        display: inline-block;
+        min-width: 90px;
+        padding: 15px;
+        background: darkblue;
+        margin: 15px;
+        margin-top: 2%;
+        border: 2px solid darkblue;
+        border-radius: 20px;
+        text-align: center;
+    }
+    #clock span {
+        font-family: 'Orbitron', sans-serif;
+        font-size: .35em;
+        text-align: center;
+        display: block;
+        font-weight: 400;
+        margin-top: 13px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+}
